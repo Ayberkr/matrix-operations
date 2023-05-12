@@ -1,22 +1,22 @@
-let rowsA = parseInt(prompt("Lütfen ilk matrisin satır sayısını girin:"));
-let colsA = parseInt(prompt("Lütfen ilk matrisin sütun sayısını girin:"));
+let rowsA = parseInt(prompt("Please enter the number of rows for the first matrix:"));
+let colsA = parseInt(prompt("Please enter the number of columns for the first matrix:"));
 
 let A = [];
 for(let i = 0; i < rowsA; i++) {
     A[i] = [];
     for(let j = 0; j < colsA; j++) {
-        A[i][j] = parseInt(prompt(`Lütfen ilk matrisin (${i + 1},${j + 1}) elemanını girin:`));
+        A[i][j] = parseInt(prompt(`Please enter the (${i + 1},${j + 1}) element of the first matrix:`));
     }
 }
 
-let rowsB = parseInt(prompt("Lütfen ikinci matrisin satır sayısını girin:"));
-let colsB = parseInt(prompt("Lütfen ikinci matrisin sütun sayısını girin:"));
+let rowsB = parseInt(prompt("Please enter the number of rows for the second matrix:"));
+let colsB = parseInt(prompt("Please enter the number of columns for the second matrix::"));
 
 let B = [];
 for(let i = 0; i < rowsB; i++) {
     B[i] = [];
     for(let j = 0; j < colsB; j++) {
-        B[i][j] = parseInt(prompt(`Lütfen ikicini matrisin (${i + 1},${j + 1}) elemanını girin:`));
+        B[i][j] = parseInt(prompt(`Please enter the (${i + 1},${j + 1}) element of the second matrix:`));
     }
 }
 
